@@ -1,0 +1,6 @@
+{
+  "name": "DataShare",
+  "description": "Virtual Mobile Data Sharing and Rewards Platform with peer transfers, community pool, and coin rewards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
