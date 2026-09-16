@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: datashare
+    runtime: node
+    plan: free
+    buildCommand: bun install && bun run build
+    startCommand: node dist/server.cjs
+    envVars:
+      - key: NODE_ENV
+        value: production
